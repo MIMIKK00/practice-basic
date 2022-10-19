@@ -1,17 +1,29 @@
+// function gugu() {
+//     let j = 2;
+//     let i = 1;
+//     for (; i <= 9; i++) {
+//         let answer = i * j;
+//         console.log(j + 'x' + i + '=' + answer);
+//     }
+// }
+// gugu()
 
-function guguDan() {
-
-    //구구단: 2~9까지의 숫자에 모두 1~9까지의 9자리를 곱한 값을 출력
-
-    //2단을 수동으로 넣어줌
-    let j = 2;
-
-    //1~9까지 for문으로 증감시켜서 알아서 곱하게 만든다
-    for (i = 1; i < 9; i++) {
-        answer = i * j;
-        return answer;
+function howMany() {
+    for (let i = 1; i < 9; i++) {
+        i++;
+        console.log(i);
     }
-    console.log(j + "X" + i, answer);
+    // return i;
 }
+howMany()
 
-guguDan();
+// function howMany(selectObject) {
+//     var numberSelected = 0;
+//     for (var i = 0; i < selectObject.options.length; i++) {
+//       if (selectObject.options[i].selected) {
+//         numberSelected++;
+//       }
+//     }
+//     return numberSelected;
+//   }
+//https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Loops_and_iteration#for_%EB%AC%B8
