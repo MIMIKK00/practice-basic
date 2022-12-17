@@ -11,9 +11,21 @@ function guguDan() {
         answer = i * j;
         console.log(j + 'x' + i + '=' + answer);
     }
+
 }
 
+
+//변수 함수 >> 차례대로 학습할 수 있는 매체 
 guguDan();
+
+let n = 0;
+
+function test() {
+    let result = n + 1;
+    console.log(result);
+    return result //실행되는 순간 동작 멈춤
+}
+test()
 
 
 // function consoleTest() {
@@ -28,14 +40,14 @@ guguDan();
 // consoleTest()
 
 
-function consoleTest2() {
+// function consoleTest2() {
 
-    let i = 2;
-    for (let i = 1; i <= 9; i++) {
-        i * 3;
-        console.log(i * 3)
-    }
-    console.log(i * 3)
+//     let i = 2;
+//     for (let i = 1; i <= 9; i++) {
+//         i * 3;
+//         console.log(i * 3)
+//     }
+//     console.log(i * 3)
 
-}
-consoleTest2()
+// }
+// consoleTest2()
